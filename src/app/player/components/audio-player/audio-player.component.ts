@@ -16,7 +16,6 @@ import { setAdjacentChannelAsActive } from '../../../state/actions';
 
 @Component({
     selector: 'app-audio-player',
-    standalone: true,
     template: `
         <div id="audio-player">
             <div class="radio-logo">
@@ -84,7 +83,7 @@ import { setAdjacentChannelAsActive } from '../../../state/actions';
         NgClass,
         FormsModule,
         NgOptimizedImage,
-    ],
+    ]
 })
 export class AudioPlayerComponent implements OnChanges {
     @Input() icon: string;

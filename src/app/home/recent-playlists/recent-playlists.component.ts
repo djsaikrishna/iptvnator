@@ -51,7 +51,6 @@ import { PlaylistInfoComponent } from './playlist-info/playlist-info.component';
 import { PlaylistItemComponent } from './playlist-item/playlist-item.component';
 
 @Component({
-    standalone: true,
     selector: 'app-recent-playlists',
     templateUrl: './recent-playlists.component.html',
     styleUrls: ['./recent-playlists.component.scss'],
@@ -68,7 +67,7 @@ import { PlaylistItemComponent } from './playlist-item/playlist-item.component';
         NgxSkeletonLoaderModule,
         PlaylistItemComponent,
         TranslateModule,
-    ],
+    ]
 })
 export class RecentPlaylistsComponent implements OnDestroy {
     @ViewChild('searchQuery') searchQueryInput!: ElementRef<HTMLInputElement>;

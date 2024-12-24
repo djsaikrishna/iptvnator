@@ -18,7 +18,6 @@ import { SeasonContainerComponent } from '../season-container/season-container.c
     selector: 'app-serial-details',
     templateUrl: './serial-details.component.html',
     styleUrls: ['../detail-view.scss'],
-    standalone: true,
     imports: [
         JsonPipe,
         MatButtonModule,
@@ -27,7 +26,7 @@ import { SeasonContainerComponent } from '../season-container/season-container.c
         SeasonContainerComponent,
         PlayerDialogComponent,
         TranslateModule,
-    ],
+    ]
 })
 export class SerialDetailsComponent {
     @Input({ required: true }) item: XtreamSerieDetails;

@@ -10,7 +10,6 @@ import { TranslateModule } from '@ngx-translate/core';
 import { PlaylistMeta } from '../../../shared/playlist-meta.type';
 
 @Component({
-    standalone: true,
     selector: 'app-playlist-item',
     templateUrl: './playlist-item.component.html',
     styleUrls: ['./playlist-item.component.scss'],
@@ -24,7 +23,7 @@ import { PlaylistMeta } from '../../../shared/playlist-meta.type';
         MatTooltipModule,
         NgIf,
         TranslateModule,
-    ],
+    ]
 })
 export class PlaylistItemComponent {
     @Input() item: PlaylistMeta;

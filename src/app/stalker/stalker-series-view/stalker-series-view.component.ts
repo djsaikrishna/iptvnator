@@ -28,7 +28,6 @@ function extractNumericValue(str: string) {
     selector: 'app-stalker-series-view',
     templateUrl: './stalker-series-view.component.html',
     styleUrls: ['../../xtream/detail-view.scss'],
-    standalone: true,
     imports: [
         FavoritesButtonComponent,
         MatButtonModule,
@@ -37,7 +36,7 @@ function extractNumericValue(str: string) {
         NgFor,
         NgOptimizedImage,
         TranslateModule,
-    ],
+    ]
 })
 export class StalkerSeriesViewComponent {
     seasons: Signal<StalkerSeason[]> = input.required({

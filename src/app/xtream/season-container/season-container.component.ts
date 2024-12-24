@@ -7,8 +7,7 @@ import { XtreamSerieEpisode } from '../../../../shared/xtream-serie-details.inte
     selector: 'app-season-container',
     templateUrl: './season-container.component.html',
     styleUrls: ['./season-container.component.scss'],
-    standalone: true,
-    imports: [JsonPipe, KeyValuePipe, NgFor, MatCardModule, NgIf],
+    imports: [JsonPipe, KeyValuePipe, NgFor, MatCardModule, NgIf]
 })
 export class SeasonContainerComponent {
     @Input({ required: true }) seasons: Record<string, XtreamSerieEpisode[]>;

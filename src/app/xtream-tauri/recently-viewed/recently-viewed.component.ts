@@ -8,10 +8,9 @@ import { XtreamStore } from '../xtream.store';
 
 @Component({
     selector: 'app-recently-viewed',
-    standalone: true,
     imports: [CommonModule, MatCardModule, MatButtonModule, MatIconModule],
     templateUrl: './recently-viewed.component.html',
-    styleUrl: './recently-viewed.component.scss',
+    styleUrl: './recently-viewed.component.scss'
 })
 export class RecentlyViewedComponent {
     private xtreamStore = inject(XtreamStore);

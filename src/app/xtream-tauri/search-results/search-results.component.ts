@@ -17,7 +17,6 @@ import { XtreamStore } from '../xtream.store';
 
 @Component({
     selector: 'app-search-results',
-    standalone: true,
     imports: [
         MatCardModule,
         MatFormFieldModule,
@@ -27,7 +26,7 @@ import { XtreamStore } from '../xtream.store';
         FormsModule,
     ],
     templateUrl: './search-results.component.html',
-    styleUrls: ['./search-results.component.scss'],
+    styleUrls: ['./search-results.component.scss']
 })
 export class SearchResultsComponent implements AfterViewInit {
     @ViewChild('searchInput') searchInput!: ElementRef;

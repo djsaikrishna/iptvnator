@@ -19,7 +19,6 @@ import { XtreamStore } from '../xtream.store';
 
 @Component({
     selector: 'app-portal-channels-list',
-    standalone: true,
     templateUrl: './portal-channels-list.component.html',
     styleUrls: ['./portal-channels-list.component.scss'],
     imports: [
@@ -34,7 +33,7 @@ import { XtreamStore } from '../xtream.store';
         MatInputModule,
         TranslateModule,
         MatTooltipModule,
-    ],
+    ]
 })
 export class PortalChannelsListComponent {
     @Output() playClicked = new EventEmitter<any>();

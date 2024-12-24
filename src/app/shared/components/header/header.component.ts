@@ -26,7 +26,6 @@ import {
 } from '../add-playlist/add-playlist-dialog.component';
 
 @Component({
-    standalone: true,
     selector: 'app-header',
     templateUrl: './header.component.html',
     styleUrls: ['./header.component.scss'],
@@ -45,7 +44,7 @@ import {
         NgxWhatsNewModule,
         ReactiveFormsModule,
         TranslateModule,
-    ],
+    ]
 })
 export class HeaderComponent implements OnInit {
     /** Title of the header */

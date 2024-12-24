@@ -13,7 +13,6 @@ import { XtreamStore } from '../xtream.store';
 
 @Component({
     selector: 'app-navigation',
-    standalone: true,
     imports: [
         MatListModule,
         MatIconModule,
@@ -22,7 +21,7 @@ import { XtreamStore } from '../xtream.store';
         TranslateModule,
     ],
     templateUrl: './navigation.component.html',
-    styleUrl: './navigation.component.scss',
+    styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent {
     private readonly dialog = inject(MatDialog);

@@ -43,7 +43,6 @@ import { PortalStore } from '../portal.store';
     selector: 'app-navigation-bar',
     templateUrl: './navigation-bar.component.html',
     styleUrls: ['./navigation-bar.component.scss'],
-    standalone: true,
     imports: [
         FormsModule,
         MatButtonModule,
@@ -59,7 +58,7 @@ import { PortalStore } from '../portal.store';
         MatCheckboxModule,
         MatTooltipModule,
         AsyncPipe,
-    ],
+    ]
 })
 export class NavigationBarComponent implements OnChanges {
     @Input({ required: true }) breadcrumbs: Breadcrumb[];
