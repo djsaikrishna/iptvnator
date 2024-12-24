@@ -26,7 +26,8 @@
                 },
                 "http": {
                     "referrer": "",
-                    "user-agent": ""
+                    "user-agent": "",
+                    "origin": ""
                 },
                 "url": "http://test/1/index.m3u8",
                 "raw": "#EXTINF:0 tvg-rec=\"3\",rpk-news\r\n#EXTGRP:news\r\nhttp://test/1/index.m3u8"
@@ -47,7 +48,8 @@
                 },
                 "http": {
                     "referrer": "",
-                    "user-agent": ""
+                    "user-agent": "",
+                    "origin": ""
                 },
                 "url": "http://test/2/index.m3u8",
                 "raw": "#EXTINF:0 tvg-rec=\"3\",5th channel\r\n#EXTGRP:news\r\nhttp://test/2/index.m3u8"
@@ -68,7 +70,8 @@
                 },
                 "http": {
                     "referrer": "",
-                    "user-agent": ""
+                    "user-agent": "",
+                    "origin": ""
                 },
                 "url": "http://test/3/index.m3u8",
                 "raw": "#EXTINF:0 tvg-rec=\"3\",Multiland Channel\r\n#EXTGRP:category 2\r\nhttp://test/3/index.m3u8"
@@ -89,7 +92,8 @@
                 },
                 "http": {
                     "referrer": "",
-                    "user-agent": ""
+                    "user-agent": "",
+                    "origin": ""
                 },
                 "url": "http://test/4/index.m3u8",
                 "raw": "#EXTINF:0 tvg-rec=\"3\",Unicuuuum\r\n#EXTGRP:category 2\r\nhttp://test/4/index.m3u8"
